@@ -33,7 +33,8 @@ public class Produto {
         joinColumns = @JoinColumn(name = "id_produto"),
         inverseJoinColumns = @JoinColumn(name = "id_empreendedor") 
     )
-    private List<Empreendedor> empreendedores; // essa estrutura representa o join table entre empreendedor e produto, onde cada empreendedor pode ter varios produtos e cada produto pode pertencer a varios empreendedores.
+    private List<Empreendedor> empreendedores; 
+    // essa estrutura representa o join table entre empreendedor e produto, onde cada empreendedor pode ter varios produtos e cada produto pode pertencer a varios empreendedores.
 
     public Produto() {
     }

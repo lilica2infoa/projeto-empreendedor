@@ -28,7 +28,8 @@ public class Endereco {
 
     @ManyToOne 
     @JoinColumn (name = "id_empreendedor")
-    private Empreendedor empreendedor; // essa estrutura representa o join table entre empreendedor e endereço, onde cada empreendedor pode ter varios endereços e cada endereço pertence a um empreendedor.
+    private Empreendedor empreendedor; 
+    // essa estrutura representa o join table entre empreendedor e endereço, onde cada empreendedor pode ter varios endereços e cada endereço pertence a um empreendedor.
 
 
     public Endereco() {

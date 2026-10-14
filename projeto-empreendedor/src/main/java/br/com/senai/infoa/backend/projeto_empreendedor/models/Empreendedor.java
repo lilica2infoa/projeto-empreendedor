@@ -15,7 +15,7 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 
-@Entity 
+@Entity
 @Table(name = "empreendedor")
 public class Empreendedor {
     @Id 
@@ -82,4 +82,4 @@ public class Empreendedor {
     }
 }
 
-
+//
