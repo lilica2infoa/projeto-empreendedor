@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjetoEmpreendedorApplication<projeto-empreendedor>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.senai.infoa.backend.projeto_empreendedor.ProjetoEmpreendedorApplication",
+            "projectName": "projeto-empreendedor",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
